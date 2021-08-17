@@ -16,7 +16,7 @@ const bucketName = AWS_BUCKET_NAME;
 
 const s3client = new AWS.S3({
   credentials,
-  endpoint: useLocal ? "http://localhost:4566" : undefined,
+  endpoint: "http://localhost:4566",
   s3ForcePathStyle: true,
 });
 

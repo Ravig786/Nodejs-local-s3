@@ -1,5 +1,4 @@
 const AWS = require("aws-sdk");
-// require("dotenv").config();
 
 const AWS_BUCKET_NAME = "test-bucket";
 const AWS_BUCKET_REGION = "us-east-1";
